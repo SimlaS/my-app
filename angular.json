@@ -5,11 +5,7 @@
   "projects": {
     "my-app": {
       "projectType": "application",
-      "schematics": {
-        "@schematics/angular:component": {
-          "style": "scss"
-        }
-      },
+      "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -126,5 +122,14 @@
       }
     }
   },
-  "defaultProject": "my-app"
+  "defaultProject": "my-app",
+  "schematics": {
+  "@schematics/angular:component": {
+    "prefix": "app",
+    "styleext": "scss"
+  },
+  "@schematics/angular:directive": {
+    "prefix": "app"
+  }
+}
 }
