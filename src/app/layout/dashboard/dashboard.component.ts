@@ -11,5 +11,8 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit() {
   }
+  
+  onEverySecond() { console.log('sekunda'); }
+  onEveryFiveSeconds() { console.log('pięć sekund'); }
 
 }
