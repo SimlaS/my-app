@@ -1,0 +1,58 @@
+[debug] [2019-11-07T11:15:28.797Z] ----------------------------------------------------------------------
+[debug] [2019-11-07T11:15:28.800Z] Command:       C:\nodejs\node.exe C:\Users\simla\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2019-11-07T11:15:28.800Z] CLI Version:   7.6.2
+[debug] [2019-11-07T11:15:28.800Z] Platform:      win32
+[debug] [2019-11-07T11:15:28.800Z] Node Version:  v10.16.3
+[debug] [2019-11-07T11:15:28.801Z] Time:          Thu Nov 07 2019 12:15:28 GMT+0100 (GMT+01:00)
+[debug] [2019-11-07T11:15:28.801Z] ----------------------------------------------------------------------
+[debug] [2019-11-07T11:15:28.801Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again.
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=193641241&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2019-11-07T11:16:21.049Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2019-11-07T11:16:23.630Z] Token Fetch Error: FirebaseError: Server Error. tunneling socket could not be established, cause=getaddrinfo ENOTFOUND 3128 3128:80
+    at Request._callback (C:\Users\simla\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:30:31)
+    at self.callback (C:\Users\simla\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:198:13)
+    at Request.EventEmitter.emit (domain.js:448:20)
+    at Request.onRequestError (C:\Users\simla\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:881:8)
+    at ClientRequest.emit (events.js:198:13)
+    at ClientRequest.EventEmitter.emit (domain.js:448:20)
+    at ClientRequest.onError (C:\Users\simla\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\tunnel-agent\index.js:179:21)
+    at Object.onceWrapper (events.js:286:20)
+    at ClientRequest.emit (events.js:198:13)
+[debug] [2019-11-07T11:17:26.531Z] ----------------------------------------------------------------------
+[debug] [2019-11-07T11:17:26.533Z] Command:       C:\nodejs\node.exe C:\Users\simla\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2019-11-07T11:17:26.534Z] CLI Version:   7.6.2
+[debug] [2019-11-07T11:17:26.534Z] Platform:      win32
+[debug] [2019-11-07T11:17:26.534Z] Node Version:  v10.16.3
+[debug] [2019-11-07T11:17:26.535Z] Time:          Thu Nov 07 2019 12:17:26 GMT+0100 (GMT+01:00)
+[debug] [2019-11-07T11:17:26.535Z] ----------------------------------------------------------------------
+[debug] [2019-11-07T11:17:26.535Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again.
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=207733199&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2019-11-07T11:17:44.717Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2019-11-07T11:17:47.301Z] Token Fetch Error: FirebaseError: Server Error. tunneling socket could not be established, cause=getaddrinfo ENOTFOUND 3128 3128:80
+    at Request._callback (C:\Users\simla\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:30:31)
+    at self.callback (C:\Users\simla\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:198:13)
+    at Request.EventEmitter.emit (domain.js:448:20)
+    at Request.onRequestError (C:\Users\simla\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:881:8)
+    at ClientRequest.emit (events.js:198:13)
+    at ClientRequest.EventEmitter.emit (domain.js:448:20)
+    at ClientRequest.onError (C:\Users\simla\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\tunnel-agent\index.js:179:21)
+    at Object.onceWrapper (events.js:286:20)
+    at ClientRequest.emit (events.js:198:13)
